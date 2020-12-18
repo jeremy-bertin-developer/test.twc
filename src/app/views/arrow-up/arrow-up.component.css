@@ -1,0 +1,11 @@
+.icon-arrow-up-wrapper {
+  position: fixed;
+  z-index: 100;
+  bottom: 40px;
+  right: 40px;
+}
+
+.icon-arrow-up {
+  font-size: 50px;
+  color: #353842;
+}

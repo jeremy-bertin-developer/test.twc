@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title = 'ng-twc';
+export class AppComponent implements OnInit {
+  constructor(private viewportScroller: ViewportScroller) {}
+
+  ngOnInit() {}
 }
